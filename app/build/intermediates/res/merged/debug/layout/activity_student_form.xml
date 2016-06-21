@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.koki.contacts.StudentFormActivity">
+
+
+        <EditText
+            android:id="@+id/student_form_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            />
+
+        <EditText
+            android:id="@+id/student_form_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"/>
+
+        <EditText
+            android:id="@+id/student_form_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone number"/>
+
+        <EditText
+            android:id="@+id/student_form_website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Website"/>
+
+        <EditText
+            android:id="@+id/student_form_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"/>
+
+        <RatingBar
+            android:id="@+id/student_form_grading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>
